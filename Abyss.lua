@@ -429,7 +429,7 @@ CompetitiveTab:CreateToggle({
 	Name = "Auto Present Open",
 	Description = nil,
 	CurrentValue = false,
-	Callback = setupToggleThread("autoPresent", "autoPresentThread", presentLoop, 1)
+	Callback = setupToggleThread("autoPresent", "autoPresentThread", presentLoop, 0.1)
 }, "AutoPresentToggle")
 
 
